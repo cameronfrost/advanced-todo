@@ -3,7 +3,6 @@ const todoInput = document.querySelector("#todo-input");
 const list = document.querySelector("#list");
 const template = document.querySelector("#list-item-template");
 
-
 let todos = loadTodos()
 todos.forEach(renderTodo)
 
